@@ -1,0 +1,23 @@
+basic:
+  network:
+    - type: ws
+      host: localhost
+      port: 5140
+      path: satori
+
+  prefix: ["/"]
+  ignore_self_message: true
+  log:
+    level: debug
+    ignores: ["aiosqlite.core"]
+    save: false
+    short_level: true
+
+plugins:
+  $files: []
+
+  .record_message:
+    record_send: true
+
+  entari_plugin_koishi: {}
+

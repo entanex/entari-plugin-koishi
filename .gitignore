@@ -175,3 +175,8 @@ cython_debug/
 
 # UV
 .python-version
+
+# Node
+node_modules/
+package.json
+package-lock.json

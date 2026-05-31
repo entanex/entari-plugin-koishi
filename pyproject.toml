@@ -1,20 +1,23 @@
 [project]
-name = "python-uv-template"
+name = "entari-plugin-koishi"
 version = "0.1.0"
-description = "Add your description here"
+description = "A plugin for Entari that integrates with Koishi."
 authors = [
-    { name = "Your Name", email = "you@example.com" },
+    { name = "Komorebi", email = "mute231010@gmail.com" },
 ]
 license = { text = "MIT" }
 readme = "README.md"
 keywords = []
 
 requires-python = ">=3.10"
-dependencies = []
+dependencies = [
+    "arclet-entari[yaml]>=0.17.4",
+    "koishi-python",
+]
 
 [project.urls]
-homepage = ""
-repository = ""
+homepage = "https://github.com/entanex/entari-plugin-koishi"
+repository = "https://github.com/entanex/entari-plugin-koishi"
 
 [dependency-groups]
 dev = [
@@ -22,8 +25,8 @@ dev = [
     "ruff>=0.12.0",
 ]
 
-[tool.uv.build-backend]
-module-root = ""
+[tool.uv.sources]
+koishi-python = { git = "https://github.com/koishipy/koishi-python" }
 
 [tool.ruff]
 line-length = 88
