@@ -1,0 +1,3 @@
+[submodule "koishi-python"]
+	path = koishi-python
+	url = git@github.com:entanex/koishi-python.git
