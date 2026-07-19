@@ -21,7 +21,7 @@ repository = "https://github.com/entanex/entari-plugin-koishi"
 
 [dependency-groups]
 dev = [
-    "pre-commit>=4.2.0",
+    "prek>=0.4.10",
     "ruff>=0.12.0",
 ]
 
