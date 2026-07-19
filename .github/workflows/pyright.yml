@@ -32,3 +32,4 @@ jobs:
         uses: jakebailey/pyright-action@v2
         with:
           pylance-version: latest-release
+          extra-args: src
