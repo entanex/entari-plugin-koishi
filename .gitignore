@@ -177,6 +177,9 @@ cython_debug/
 .python-version
 
 # Node
-node_modules/
-package.json
-package-lock.json
+/.yarn
+/node_modules
+/.yarnrc.yml
+/yarn.lock
+/package.json
+/package-lock.json
