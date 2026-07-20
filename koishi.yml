@@ -1,0 +1,9 @@
+plugins:
+  http:
+  server:
+    port: 5140
+  server-satori:
+    path: /satori
+  adapter-onebot:
+    selfId: "3655509951"
+    path: /onebot/v11/ws

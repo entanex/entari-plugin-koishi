@@ -465,12 +465,14 @@ version = "0.1.0"
 source = { editable = "koishi-python" }
 dependencies = [
     { name = "javascript" },
+    { name = "ruamel-yaml" },
     { name = "typing-extensions" },
 ]
 
 [package.metadata]
 requires-dist = [
     { name = "javascript", git = "https://github.com/koishipy/JSPyBridge?rev=ref_val" },
+    { name = "ruamel-yaml", specifier = ">=0.18.0" },
     { name = "typing-extensions", specifier = ">=4.7.0" },
 ]
 
